@@ -2,7 +2,7 @@ Index: stdbool.h
 ===================================================================
 --- /dev/null
 +++ stdbool.h
-@@ -0,0 +1,17 @@
+@@ -0,0 +1,13 @@
 +#ifndef _STDBOOL_H
 +#define _STDBOOL_H
 +
@@ -10,10 +10,6 @@ Index: stdbool.h
 +#define bool  int
 +#define true  1
 +#define false 0
-+#else
-+#define bool  bool
-+#define false false
-+#define true  true
 +#endif
 +
 +#define __bool_true_false_are_defined  1
